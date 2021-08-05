@@ -15,7 +15,7 @@ class App {
         this.canvas = document.createElement('canvas');
         document.body.appendChild(this.canvas);
         this.canvas.style.width = "100vw";
-        this.canvas.style.height = "360vh";
+        this.canvas.style.height = "430vh";
         this.canvas.style.backgroundColor = "black";
         this.ctx = this.canvas.getContext('2d');
 

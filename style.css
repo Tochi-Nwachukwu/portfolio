@@ -13,7 +13,7 @@ main {
   position: absolute;
   z-index: 10;
   width: 100vw;
-  height: 100vh;
+  height: 430vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,13 +42,14 @@ main {
 
 .portfolio {
   color: rgba(255, 255, 255, 0.308);
-  font-size: 300px;
+  font-size: 150px;
   position: -webkit-sticky;
   position: sticky;
   top: 150px;
   padding: 5px;
   z-index: -3;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .works .card .img {
@@ -89,6 +90,10 @@ main {
 }
 p.footer {
   color: white;
+  position: absolute;
+  bottom: 0;
+  margin: 5%;
+  padding: 10%;
 }
 
 p.footer a {
@@ -110,7 +115,7 @@ p.footer a {
   }
 
   .portfolio {
-    font-size: 36px;
+    font-size: 18px;
     text-transform: uppercase;
   }
 }
