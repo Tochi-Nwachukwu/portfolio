@@ -9,22 +9,13 @@ const COLORS = [
 ]
 
 
-/* Color Theme Swatches in RGBA */
-// .Beauty-woman-in-neon-light,-portrait-of-beautiful-model-with-fluorescent-makeup-1-rgba { color: rgba(89, 1, 65, 1); }
-// .Beauty-woman-in-neon-light,-portrait-of-beautiful-model-with-fluorescent-makeup-2-rgba { color: rgba(242, 4, 226, 1); }
-// .Beauty-woman-in-neon-light,-portrait-of-beautiful-model-with-fluorescent-makeup-3-rgba { color: rgba(60, 2, 140, 1); }
-// .Beauty-woman-in-neon-light,-portrait-of-beautiful-model-with-fluorescent-makeup-4-rgba { color: rgba(80, 4, 242, 1); }
-// .Beauty-woman-in-neon-light,-portrait-of-beautiful-model-with-fluorescent-makeup-5-rgba { color: rgba(242, 68, 4, 1); }
-
-
-
 class App {
     constructor() {
 
         this.canvas = document.createElement('canvas');
         document.body.appendChild(this.canvas);
         this.canvas.style.width = "100vw";
-        this.canvas.style.height = "300vh";
+        this.canvas.style.height = "360vh";
         this.canvas.style.backgroundColor = "black";
         this.ctx = this.canvas.getContext('2d');
 
