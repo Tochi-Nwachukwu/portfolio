@@ -1,12 +1,22 @@
 import { GlowParticle } from "./glowPartcle.js";
 
 const COLORS = [
-    { r: 1, g: 39, b: 89 },//blue
-    { r: 1, g: 28, b: 63 },//yellow
-    { r: 2, g: 76, b: 140 },//purple
-    { r: 0, g: 20, b: 38 },//skyblue
-    { r: 91, g: 158, b: 216 },//green
+    { r: 242, g: 4, b: 226 },//blue
+    { r: 242, g: 4, b: 226 },//yellow
+    { r: 60, g: 2, b: 140 },//purple
+    { r: 80, g: 4, b: 242 },//skyblue
+    { r: 60, g: 2, b: 140 },//green
 ]
+
+
+/* Color Theme Swatches in RGBA */
+// .Beauty-woman-in-neon-light,-portrait-of-beautiful-model-with-fluorescent-makeup-1-rgba { color: rgba(89, 1, 65, 1); }
+// .Beauty-woman-in-neon-light,-portrait-of-beautiful-model-with-fluorescent-makeup-2-rgba { color: rgba(242, 4, 226, 1); }
+// .Beauty-woman-in-neon-light,-portrait-of-beautiful-model-with-fluorescent-makeup-3-rgba { color: rgba(60, 2, 140, 1); }
+// .Beauty-woman-in-neon-light,-portrait-of-beautiful-model-with-fluorescent-makeup-4-rgba { color: rgba(80, 4, 242, 1); }
+// .Beauty-woman-in-neon-light,-portrait-of-beautiful-model-with-fluorescent-makeup-5-rgba { color: rgba(242, 68, 4, 1); }
+
+
 
 class App {
     constructor() {
